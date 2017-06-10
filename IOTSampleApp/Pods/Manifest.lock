@@ -1,0 +1,22 @@
+PODS:
+  - MQTTClient (0.8.7):
+    - MQTTClient/Core (= 0.8.7)
+  - MQTTClient/Core (0.8.7):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.8.7):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.8.7)
+  - SwiftCloudant (0.6.0)
+
+DEPENDENCIES:
+  - MQTTClient
+  - SwiftCloudant
+
+SPEC CHECKSUMS:
+  MQTTClient: 2842bdeab5a65eec75e0fcbbbd2a300946690fee
+  SwiftCloudant: c8427870e723c6a421c50326689719d570306951
+
+PODFILE CHECKSUM: 0a33bdbd8149421c6a4d52949ada3f002c4661dc
+
+COCOAPODS: 1.2.0
